@@ -4,14 +4,14 @@ This Tech.io runner works with a node project. Mocha will be launched in the roo
 
 ## What it Does
 
-This node7.4 runner installs the dependencies using `npm install`. The dependencies must be specified in the `package.json` file at the project root as specified in the [official documentation](https://docs.npmjs.com/getting-started/using-a-package.json).
+This node:12.10.0 runner installs the dependencies using `npm install`. The dependencies must be specified in the `package.json` file at the project root as specified in the [official documentation](https://docs.npmjs.com/getting-started/using-a-package.json).
 
 ## How to Use
 
 In order to use the current version of the runner in your project, edit the `techio.yml` file and add the following lines to your project:
 
 ```yaml
-runner: techio/node-npm-runner:1.1.0-node-7.4
+runner: nseydoux/techio-node:1.0.0-node12.10.0
 ```
 
 ### Example
